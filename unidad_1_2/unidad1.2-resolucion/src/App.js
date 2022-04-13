@@ -13,8 +13,13 @@ function App() {
   return (
     <div className="App">
       <Page>
-        <Header pageTitle={site.pageTitle} />
-        <Main pageBody={site.pageBody} links={site.links} />
+          <Header 
+            pageTitle={site.pageTitle}
+          />
+          <Main 
+            pageBody={site.pageBody}
+            links={site.links}
+          />
       </Page>
     </div>
   );

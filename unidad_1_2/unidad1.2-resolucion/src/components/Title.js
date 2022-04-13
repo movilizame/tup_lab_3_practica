@@ -1,7 +1,7 @@
-export default function Title ({ pageTilte }) {
+export default function Title ({ title }) {
     return (
         <div>
-            <h1>{ pageTilte }</h1>
+            <h1 className="red">{ title }</h1>
         </div>
     );
 }
